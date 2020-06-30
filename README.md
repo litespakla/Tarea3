@@ -26,7 +26,7 @@ La distribución gaussiana es la que tiene menor error tanto para 'x' como para 
 # Parte b
 Si se asume independencia de los datos, entonces f(x, y)=f(x)f(y). Si se toman ambas funciones como las gaussianas definidas anteriormente, entonces la función de densidad conjunta es: 
 
-![img](http://www.sciweavers.org/tex2img.php?eq=%20%5Cfrac%7B1%7D%7B2%20%5Cpi%20%20%5Csigma_x%20%5Csigma_y%7D%20e%5E%7B-%20%5Cfrac%7B1%7D%7B2%7D%20%5Cleft%20%28%20%28%20%5Cfrac%7Bx-%20%5Cmu_x%7D%7B%20%5Csigma_x%7D%20%29%5E2%2B%20%28%20%5Cfrac%7By-%20%5Cmu_y%7D%7B%20%5Csigma_y%7D%20%29%5E2%20%5Cright%20%29%20%7D%20%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+$$\frac{1}{2\pi \sigma_x\sigma _y}e^{-\frac{1}{2}\left ( \left ( \frac{x-\mu_x}{\sigma_x} \right )^2+\left ( \frac{y-\mu_y}{\sigma_y} \right )^2 \right )}$$
 
 # Parte c
 La correlación es el grado en el cual dos o más cantidades están linealmente
